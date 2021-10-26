@@ -1,0 +1,323 @@
+body{
+  margin: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.contenedor-padre{
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #435055;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+h3{
+  font-family: 'Bai Jamjuree', sans-serif;
+  color: #435055;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+p{
+  font-size: 1.3rem;
+  line-height: 1.4;
+  color: #AAAAAA;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+.fondo{
+  position: absolute;
+  width: 1349px;
+
+}
+
+/*Header*/
+
+#hijo1{
+  align-self: center;
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Bai Jamjuree', sans-serif;
+  width: 55%;
+  flex-wrap: wrap;
+}
+
+.logoo{
+  margin-top: 15%;
+  margin-bottom: 6%;
+  position: relative;
+  z-index: 1;
+}
+/*Botones del hearder*/
+
+.botones{
+  padding: 3%;
+}
+
+.boton-green{
+  display: inline-block;
+    width: 35%;
+    margin-bottom: 1.2rem;
+    padding: 1rem 1rem;
+    border-radius: 2rem;
+    color: #fff;
+    text-align: center;
+    background-color: #2EC1AC;
+    border-bottom: 5px solid #297F87;
+    box-shadow: 0 6px 9px rgb(38 186 164 / 50%);
+    font-family: 'Bai Jamjuree', sans-serif;
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-right: 3%;
+      border-color: #297F87;
+}
+.boton-green:hover{
+  background-color: #69DADB;
+}
+.boton-blue{
+  display: inline-block;
+    width: 35%;
+    margin-bottom: 1.5rem;
+    padding: 1rem 1rem;
+    border-radius: 2rem;
+    color: #fff;
+    text-align: center;
+    background-color: #5C7AEA;
+    border-bottom: 5px solid #3D56B2;
+    box-shadow: 0 6px 9px rgb(97 115 255 / 50%);
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-color: #3D56B2;
+}
+.boton-blue:hover{
+  background-color: #98ACF8;
+}
+/*Lo que le sigue al header*/
+
+#hijo2{
+  display:flex;
+  flex-direction: column;
+  padding-bottom: 15%;
+}
+.seccion2{
+  text-align: center;
+  width: 55%;
+  align-self: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+}
+.linea-espacio{
+  line-height: 1.6;
+  font-size: 1.2rem;
+}
+.elemento1{
+  width: 25%;
+
+}
+.texto{
+  font-size: 1rem;
+}
+.elementos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+/*Seccion #3 el acceso a clipboard desde cualquier lugar*/
+#hijo3{
+  display: flex;
+  flex-direction: column;
+}
+.seccion3{
+  align-self: center;
+  text-align: center;
+
+}
+.parrafo-seccion3{
+line-height: 2rem;
+  width: 70%;
+  margin-left: 13%;
+  margin-bottom: 7%;
+}
+
+/*Seccion de redes*/
+#hijo4{
+  display: flex;
+  flex-direction: column;
+}
+.redes{
+  text-align: center;
+}
+.nieto1{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+.nietos{
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 5%;
+}
+.bisnietos{
+  width: 23%;
+}
+.imagenes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 10%;
+}
+/*Penuiltima seccion*/
+
+#hijo5{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+.seccion6{
+  width: 60%;
+  align-self: center;
+}
+.btn{
+padding-bottom: 15%;
+padding-top: 3%;
+}
+
+/*Footer*/
+footer{
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footer-logo{
+  width: 50px;
+  height: 50px;
+  margin: 50px 0;
+}
+
+ul{
+  list-style: none;
+  font-family: 'Bai Jamjuree', sans-serif;
+  margin-top: 30%;
+  text-align: left;
+  line-height: 3rem;
+}
+
+a{
+  color: #435055;
+  text-decoration: none;
+  font-size: 1.1rem;
+  margin-bottom: 20%;
+}
+a:hover{
+  color: #2EC1AC;
+}
+i{
+  font-size: 27px;
+  color: #435055;
+
+}
+
+.icon{
+margin-top: 40%;
+margin-left: 30px;
+}
+
+.icon:hover{
+  color: #2EC1AC;
+}
+
+.credits{
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  padding-top: 2%;
+
+}
+.dhani{
+  color: #297F87;
+}
+.last-text{
+  font-size: 1rem;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+/*Condicionales*/
+
+@media (max-width:1028px ){
+  /*Botones*/
+  .boton-green{
+    display: inline-block;
+    width: 100%;
+  }
+
+  .boton-blue{
+    display: inline-block;
+    width: 100%;
+  }
+
+  /*Seccion de redes*/
+
+  #hijo4{
+    display: flex;
+    flex-direction: column;
+  }
+  .redes{
+    text-align: center;
+  }
+  .nieto1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    align-items: center;
+
+  }
+  .bisnietos{
+    width: 50%;
+  }
+  .imagenes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.imagen{
+  margin-bottom: 40%;
+}
+
+/*Seccion de acceso a clipboard, seccion despues del header*/
+
+.elemento1{
+  width: 50%;
+  text-align: center;
+}
+.texto{
+  text-align: center;
+}
+h1{
+  width: 100%;
+}
+.seccion{
+  width: 100%;
+}
+.seccion1{
+  width: 100%;
+}
+.seccion2{
+  width: 100%;
+}
+}
