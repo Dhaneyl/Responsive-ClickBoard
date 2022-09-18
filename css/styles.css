@@ -308,6 +308,9 @@ margin-left: 30px;
 .texto{
   text-align: center;
 }
+body{
+  width: 100%;
+}
 h1{
   width: 100%;
 }
@@ -319,5 +322,11 @@ h1{
 }
 .seccion2{
   width: 100%;
+}
+.fondo{
+  width: 100%;
+}
+.smarth-tv{
+  width: 80%;
 }
 }
